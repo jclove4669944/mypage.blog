@@ -1,0 +1,271 @@
+body{
+	
+	background-image: url('../Pic/sand6.jpg');
+	background-size: cover;
+	background-position: center;
+	Background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: "arial";
+}
+
+.aboutmeh{
+	background-color: beige;
+	height: 20px;
+	width: 100px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	margin-right: 50px;
+	border-radius: 25px;
+}
+
+#welcome{
+	border: 5px solid khaki;
+	border-radius: 10px;
+	width: 150px;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 5px;
+	color: beige;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.header{
+	background-color: teal;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+}
+
+#ako{
+	margin: 10px;
+	padding-top: 0px;
+}
+
+.container{
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	margin-top: 10px;
+}
+
+.container h1{
+	margin-bottom: 25px;
+}
+
+.container p{
+	margin-top: 60px;
+}
+
+.intro{
+	display: center;
+	text-align: justify-content;
+	padding: 20px 20px;
+	background-color: #edf7f6;
+	border-radius: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.music{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 100px;
+	padding: 30px;
+	padding-left: 50px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.music mp3{
+	width: 50px;
+}
+
+.video{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 150px;
+	display: flex;
+	padding: 30px;
+	padding-top: 5px;
+}
+
+.content1{
+	padding-left: 50px;
+}
+
+.content2{
+	padding-left: 10px;
+}
+
+.video video{
+	transition: transform 0.3s ease;
+}
+
+.video video:hover{
+	transform: scale(1.1);
+}
+
+.BB{
+	padding: 10px 25px;
+	background-color: #a28089;
+	border-radius: 25px;
+	width: 700px;
+}
+
+.BBhozier{
+	display: flex;
+	margin-left: 10px;
+	gap: 20px;
+	padding-right: 20px;
+}
+
+#title1{
+	margin-left: 150px;
+}
+
+#title2{
+	margin-left: 200px;
+}
+
+.lyrics{
+	flex: 1;
+	padding: 10px;
+	border: 1px;
+	border-radius: 10px;
+	background-color: beige;
+	padding-left: 80px;
+	padding-bottom: 20px;
+	margin-right: 20px;
+	margin-left:20px;	
+}
+
+#pictures{
+	background-color: white;
+	border-radius: 10px;
+	width: 150px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.album{
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.album{
+	margin-top: 10px;
+	background-color: #edf7f6;
+	border-radius: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	justify-content: center;
+	align-items: center;
+	width: 1000px;
+	margin-left: 150px;
+}
+
+.album img{
+	 transition: transform 0.3s ease;
+}
+
+.album img:hover{
+	transform: scale(1.1);
+}
+
+.album img{
+	width: 300px;
+}
+
+#click{
+	color: maroon;
+	width: 190px;
+	font-weight: bold;
+	padding-left: 10px;
+	font-size: 30px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+#button{
+	margin-left: 20px;
+	background-color: gold;
+	color: black;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+#profile{
+	justify-content: left;
+	align-items: left;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: maroon;
+	width: 120px;
+	height: 120px;
+}
+
+#profile img{
+	 transition: transform 0.3s ease;
+}
+
+#profile img{
+	transform: scale(1.1);
+}
+
+#profile img{
+	border-radius: 20px;
+	width: 100px;
+	padding: 10px;
+}
+
+hr{
+	height: 5px;
+	background-color: maroon;
+}
+
+.abouttext{
+	background-color: white;
+	width: 60px;
+	padding-left: 15px;
+	border-radius: 10px;
+}
+
+.about{
+	background-color: beige;
+	padding: 10px 10px 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.footer{
+	display: center;
+	justify-content: center;
+	text-align: center;
+	
+	width: 100%;
+}
+
+#foot{
+	padding-top: 30px;
+	padding-bottom: 5px;
+	background-image: linear-gradient(to right, beige, purple);
+	Height: 50px;
+}
+
+<!--index1 css-->
+
